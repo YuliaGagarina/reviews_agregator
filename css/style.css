@@ -1,0 +1,152 @@
+header {
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+}
+
+.logo {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.logo img {
+    width: 120px;    
+}
+
+.header-buttons {
+    flex: 0 0 75%;
+    max-width: 75%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.log-in,
+.log-out {
+    display: inline-block;
+    color: #fff;
+    background-color: #15C573;
+    padding: 10px 20px;
+    border: 1px solid #15C573;
+    border-radius: 10px;
+    transition: all 0.3s;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.log-in:hover,
+.log-out:hover {
+    transform: scale(1.1);
+    background-color: #129055;
+    border: 1px solid #129055;
+}
+
+.register {
+    display: inline-block;
+    color: #fff;
+    background-color: #47E1F9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid  #47E1F9;
+    text-decoration: none;
+}
+
+.register:hover {
+    transform: scale(1.1);
+    background-color: #177490;
+    border: 1px solid #177490;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.adding-googs {
+    margin: 20px auto 0 0;
+}
+.page__btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #47E1F9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid  #47E1F9;
+    text-decoration: none;
+}
+
+.page__btn:hover {
+    transform: scale(1.1);
+    background-color: #129055;
+    border: 1px solid #129055;
+}
+
+img.goods__icon {
+    width: 50px;
+    height: auto;
+}
+.goods__sort {
+    margin-bottom: 15px;
+}
+
+.goods-image {
+    max-width: 600px;
+}
+
+.form-heading {
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.adding-goods__form  {
+    max-width: 40%;
+}
+
+.adding-reviews__form {
+    max-width: 40%;
+    margin-bottom: 25px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column
+}
+.input-disabled-field {
+    margin-bottom: 10px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+a, button {
+    outline: none;
+}
+
+.login-form {
+    max-width: 30%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
